@@ -201,6 +201,9 @@ BEGIN
 		-- =========================
 		SET @section_start = SYSDATETIME();
 
+		PRINT '>> Truncating table: silver.erp_loc_a101';
+		TRUNCATE TABLE silver.erp_loc_a101;
+
 		PRINT '>> Inserting data to table: silver.erp_loc_a101';
 		INSERT INTO silver.erp_loc_a101 (
 			cid,
