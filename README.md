@@ -15,18 +15,6 @@ The data warehouse is structured following the **Medallion Architecture**, compr
 
 ---
 
-## 📁 Repository Structure
-
-create-datawarehouse-project/
-├── datasets/ # Raw datasets (e.g., ERP and CRM data)
-├── docs/ # Documentation and architectural diagrams
-├── scripts/ # SQL scripts for view creation and procedures
-├── LICENSE # MIT License
-└── README.md # Project overview and instructions
-
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
